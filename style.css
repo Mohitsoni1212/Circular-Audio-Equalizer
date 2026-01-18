@@ -1,0 +1,34 @@
+/* Page basic styling */
+body {
+  margin: 0;
+  background: #0b0b0b;
+  color: #f5c77a;
+  font-family: Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+/* Heading */
+h1 {
+  margin-bottom: 5px;
+}
+
+/* Canvas full width */
+canvas {
+  width: 400px;
+  height: 400px;
+}
+
+/* Button styling */
+button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background: #f5c77a;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+}
